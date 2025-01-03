@@ -4,9 +4,10 @@ import { RiArrowDropDownLine } from "react-icons/ri";
 import { FiFilter } from "react-icons/fi";
 import { FeaturedCarousel } from "../components/FeaturedCarousel";
 import { Button } from "@/app/components/ui/button";
+
 export default function Featured() {
   return (
-    <main className="my-20 max-w-[1300px] mx-auto flex gap-x-4 lg:gap-x-20">
+    <main className="my-20 max-w-[1300px] mx-auto flex gap-x-4 lg:gap-x-20 px-4 sm:px-6 md:px-8">
       <section className="flex flex-col max-w-[200px]">
         <h1 className="font-semibold text-sm  md:text-2xl">New(500)</h1>
         <div className="font-medium text-[9px] lg:text-md max-w-[150px] space-y-2 mt-6 flex flex-col">
@@ -33,15 +34,12 @@ export default function Featured() {
           </h1>
           <div className="mt-2 text-[9px] lg:text-sm">
             <h1 className="flex gap-2 items-center">
-              
               Men
             </h1>
             <h1 className="flex gap-2 items-center">
-             
               Women
             </h1>
             <h1 className="flex gap-2 items-center">
-             
               Unisex
             </h1>
           </div>
@@ -56,11 +54,9 @@ export default function Featured() {
           </h1>
           <div className="mt-2 text-[9px] lg:text-sm">
             <h1 className="flex gap-2 items-center">
-              
               Boys
             </h1>
             <h1 className="flex gap-2 items-center">
-              
               Girls
             </h1>
           </div>
@@ -75,11 +71,10 @@ export default function Featured() {
           </h1>
           <div className="mt-2 text-[9px] lg:text-sm">
             <h1 className="flex gap-2 items-center">
-           
               Under ₹ 2 500.00
             </h1>
             <h1 className="flex gap-2 items-center">
-             ₹ 2 501.00 - ₹ 7 500.00
+              ₹ 2 501.00 - ₹ 7 500.00
             </h1>
           </div>
         </div>
